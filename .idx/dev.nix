@@ -14,7 +14,11 @@
   ];
 
   # Sets environment variables in the workspace
-  env = {};
+  env = {
+    JWT_SECRET = "your-jwt-secret";
+    RAZORPAY_API_KEY = "your-razorpay-api-key";
+    RAZORPAY_KEY_SECRET = "your-razorpay-key-secret";
+  };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [

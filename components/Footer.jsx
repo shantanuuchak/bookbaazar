@@ -67,25 +67,25 @@ export default function Footer() {
           <p className="mb-3 mr-4 text-sm font-MyFont opacity-80">
             Email:
             <Link
-              href="mailto:mayankkush0842@gmail.com"
+              href="mailto:ritesh@gmail.com"
               className="text-link mt-1 block font-MyFont underline decoration-dashed underline-offset-2 hover:decoration-solid "
             >
-              mayankkush0842@gmail <br className='flex md:hidden'></br>.com
+              ritesh@gmail <br className='flex md:hidden'></br>.com
             </Link>
           </p>
           <p className="mb-3 text-sm font-MyFont">
             Phone:
             <Link
-              href="tel:+919023373685"
+              href="tel:+91999888998"
               className="text-link mt-1 block font-MyFont underline decoration-dashed underline-offset-2 hover:decoration-solid "
             >
-              +919023373685
+              +91999888998
             </Link>
           </p>
           <p className="mb-3 text-sm font-MyFont">
             Address:
             <span className="mt-1 block font-MyFont">
-              Ahmedabad, Gujarat, INDIA
+              Mumbai, India
             </span>
           </p>
         </div>
@@ -97,15 +97,15 @@ export default function Footer() {
               {" "}
               <FiFacebook className="icon-bottom " />{" "}
             </Link>
-            <Link href="https://www.instagram.com/_mayank._k___/">
+            <Link href="https://www.instagram.com">
               {" "}
               <SlSocialInstagram className="icon-bottom" />{" "}
             </Link>
-            <Link href="https://t.me/+919023373686">
+            <Link href="https://t.me">
               {" "}
               <PiTelegramLogo className="icon-bottom" />{" "}
             </Link>
-            <Link href="mailto:mayankkush0842@gmail.com">
+            <Link href="mailto:ritesh@gmail.com">
               {" "}
               <IoMailUnreadOutline className="icon-bottom" />
             </Link>
@@ -117,7 +117,7 @@ export default function Footer() {
           className="copyright-notice font-MyFont mx-auto flex max-w-6xl flex-col items-center py-1 px-4 text-primary md:flex-row 
            md:justify-between md:px-8"
         >
-          <span>© Copyright Next Bookstore</span>
+          <span>© Copyright Next BookBaazar</span>
           <span>
             Crafted by
             <Link
@@ -125,7 +125,7 @@ export default function Footer() {
               href="https://lordmashh.github.io/Portfolio_mayank/"
             >
               {" "}
-              Mayank kushwaha
+              Ritesh Paswan
             </Link>
             .
           </span>
