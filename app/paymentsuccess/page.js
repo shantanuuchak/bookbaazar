@@ -25,7 +25,7 @@ const downloadPdf = () => {
 
   // Add header
   pdf.setFontSize(30);
-  pdf.text('Book Odysseys', 15, 15);
+  pdf.text('BookBaazar', 15, 15);
 
   // Define the columns for your table
   const columns = ["Field", "Value"];

@@ -60,7 +60,7 @@ export default function UserInfo() {
 
     // Add header
     pdf.setFontSize(30);
-    pdf.text("Book Odysseys", 15, 15);
+    pdf.text("Book Baazar", 15, 15);
 
     // Define the columns for your table
     const columns = ["Field", "Value"];
@@ -110,7 +110,7 @@ export default function UserInfo() {
   return (
     <div className="max-w-6xl w-full mx-auto px-4 py-6 justify-start md:px-8">
       <div className="flex pb-8 md:pb-0 md:pr-10 xl:pr-20 font-main text-xl md:text-3xl ">
-        Welcome to Book odyssey
+        Welcome to Book Baazar
       </div>
       <div className="shadow-lg p-8 bg-zince-300/10 flex flex-col  text-md gap-2 my-6">
         <div className="font-main ">
